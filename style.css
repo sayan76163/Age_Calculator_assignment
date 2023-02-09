@@ -1,0 +1,38 @@
+body {
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+lable {
+    font-size: 20px;
+}
+.calc_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    padding: 38px;
+    border-radius: 18px;
+}
+
+.all_inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.boxes {
+     display: flex;
+     flex-direction: column;
+}
+
+.btn {
+    height: 2rem;
+    width: 10rem;
+    color:white;
+    background-color:blue;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
